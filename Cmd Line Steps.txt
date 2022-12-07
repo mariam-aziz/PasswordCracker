@@ -1,17 +1,6 @@
-
 100133214@CSHS-2336-23-S MINGW64 ~ (master)
-$ cd '/c/Users/100133214/OneDrive - Clear Creek ISD'
-
-100133214@CSHS-2336-23-S MINGW64 ~/OneDrive - Clear Creek ISD (master)
-$ cd '2022-2023\4th-Cybersecurity\PasswordCracker'
-
-100133214@CSHS-2336-23-S MINGW64 ~/OneDrive - Clear Creek ISD/2022-2023/4th-Cybersecurity/PasswordCracker (main)
-$ cd 'out\artifacts\PasswordCracker_jar'
+$ cd '/c/Users/100133214/OneDrive - Clear Creek ISD/2022-2023\4th-Cybersecurity\PasswordCracker\out\artifacts\PasswordCracker_jar'
 
 100133214@CSHS-2336-23-S MINGW64 ~/OneDrive - Clear Creek ISD/2022-2023/4th-Cybersecurity/PasswordCracker/out/artifacts/PasswordCracker_jar (main)
 $ 'C:\Program Files\Java\jdk-13\bin\java.exe' -jar PasswordCracker.jar
-Welcome to our Password Cracker!
-Would you like to use Dictionary Attack or Brute Force (must be 5 char password if brute)? Type 1 for Dictionary or 2 for Brute Force.
-
-
 
