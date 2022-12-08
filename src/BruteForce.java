@@ -44,7 +44,7 @@ public class BruteForce {
                                         guess += currentGuess[m];
                                     }
 
-                                    return "Password is " + guess;
+                                    return "Password is " + guess;          //returns the correct guess
                                 }
                             }
                         }
@@ -56,9 +56,10 @@ public class BruteForce {
         }
         public static boolean bruteCompare(String[] arr, int hashType, String hashedPW, String salt) throws NoSuchAlgorithmException {
             String guess = "";
-            for (int i = 0; i<arr.length; i++){
+            for (int i = 0; i<arr.length; i++){     //converts string array to string
                 guess+=currentGuess[i];
             }
+            //hashes the guess
             if (hashType==1){
                 guess = MD5Hash.getMd5(guess);
             }
@@ -69,6 +70,7 @@ public class BruteForce {
 
                 guess = BCrypt.hashpw(guess, salt);
             }
+            //compares hashed guess to hashed user password
             if (guess.equals(hashedPW)){
                 return true;
             }
