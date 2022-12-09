@@ -1,5 +1,6 @@
 # PasswordCracker
 Java Password Cracker 2022 CSHS Cybersecurity
+Developers: Mariam Aziz, Caden Ryskoski, Janice Thomas
 ## Rubric (51/51)
 - [x] Be able to load dataset of top 10K most common passwords
 - [x] Implement brute force password cracking
